@@ -1,0 +1,54 @@
+/*
+1. I took inspiration from a few websites and also just wanted the shoes and their colors to pop out for the viewer to catch their eyes so I went for a simple white background with grey type. I also used gray in the logo along with black. For the footer I also used grey. 
+2. My color pallet consists of, #707070 (for the type), #9EACB4 (for the footer), and #FFFFFF (for the background.)
+3. In all the whole website is really simple and has a lot of negitive space filled with the color white. This gives more of a modern look and will lead the viewer to focus on the colors of the shoes. 
+*/
+/*
+1. I chose the font Helvetica Neue because of the simplicity of it. Its a sleek and simple font that fits the asthetic of the webpage. In the footer section I used the font Avenir Book. 
+2. For font weight and size, it varys from H1 to H3 to H4. For the menu section I used the smallest size with the font size of 20pt. For the type above the pictures of the shoes I used a weigth of H4 and font size of 30pt. For footer content like the text "FAQs" I used a weight of H3. 
+3. Line height at normal.
+*/
+
+li {
+  font-family: "Helvetica", Neue;
+  font-weight: 400;
+  font-size: 30px;
+  color: #707070;
+  text-decoration: none;
+}
+
+li {
+  font-family: "Helvetica", Neue;
+  font-weight: 100;
+  font-size: 20px;
+  color: #707070;
+  text-decoration: none;
+}
+
+li {
+  font-family: "Avenir", Book;
+  font-weight: 300;
+  font-size: 30px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/*Images*/
+img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+  width: 10em;
+}
+
+.footer {
+  height: 250px;
+  background-color: #9EACB4;
+  color: #FFFFFF;
+  position: relative;
+  font-size: 30px;
+}
